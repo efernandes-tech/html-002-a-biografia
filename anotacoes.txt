@@ -1,0 +1,1 @@
+1 - A W3C definiu a tag "<!DOCTYPE html>" desta forma, pq quando sair uma versão 6 do HTML, vc não vai precisar fazer alterações pq o browser vai entender que vc esta usando a versão mais atual.

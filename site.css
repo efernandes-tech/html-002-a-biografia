@@ -1,11 +1,12 @@
 body {
+    font-family: "Times New Roman", serif;
     background-color: #F2FFFC;
 }
 
 h1 {
+    text-align: center;
     background-color: rgb(133, 25, 68);
     color: #FFF;
-    text-align: center;
 }
 
 h1, h2 {
@@ -14,5 +15,4 @@ h1, h2 {
 
 p {
     text-align: justify;
-    font-family: "Times New Roman", serif;
 }

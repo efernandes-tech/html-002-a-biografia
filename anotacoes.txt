@@ -1,1 +1,4 @@
 1 - A W3C definiu a tag "<!DOCTYPE html>" desta forma, pq quando sair uma versão 6 do HTML, vc não vai precisar fazer alterações pq o browser vai entender que vc esta usando a versão mais atual.
+2 - Quando for declarar uma fonte no CSS, sempre declare o tipo que vc quer pq se o browser não achar a principal ele usa uma parecida.
+    font-family: "Arial", sans-serif; (sem serifa, os risquinnhos nos cantos)
+    font-family: "Merriweather", serif; (com serifa)

@@ -2,3 +2,21 @@
 2 - Quando for declarar uma fonte no CSS, sempre declare o tipo que vc quer pq se o browser não achar a principal ele usa uma parecida.
     font-family: "Arial", sans-serif; (sem serifa, os risquinnhos nos cantos)
     font-family: "Merriweather", serif; (com serifa)
+3 - Tipos de links
+    3.1 - Relativos (ideal)
+        3.1.1 - URL atual:
+            http://meusite.com/paginas/blog.html
+        3.1.2 - Links e para onde levão relativos ao atual:
+            <a href="portifolio.html">Relativo</a>
+                http://meusite.com/paginas/portifolio.html
+            <a href="/posts/teste.html">Relativo</a>
+                http://meusite.com/posts/teste.html
+            <a href="//curso.com">Relativo</a>
+                http://curso.com
+    3.2 - Absoluto
+        <a href="http://www.google.com">Absoluto</a>
+4 - Sempre usar o alt="" nas imagens para auxiliar os leitores de tela.
+5 - Usar entidades para caracters especiais evita problemas com a codificação da pagina (tmb serve para exibir tags html sem q elas sejam interpletadas).
+    &pound; = £
+    &copy; = ₢
+    &lt;h1&gt; = <h1>

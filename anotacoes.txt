@@ -20,3 +20,5 @@
     &pound; = £
     &copy; = ₢
     &lt;h1&gt; = <h1>
+6 - Propriedade que faz o navegador aplicar o width considerando a borda.
+    box-sizing: border-box;

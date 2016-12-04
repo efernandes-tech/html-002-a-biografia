@@ -44,3 +44,15 @@ aside a {
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
 }
+
+h1 {
+    padding: 24px;
+}
+
+blockquote {
+    margin: 0;
+    border: 10px solid #C2CCCA;
+    padding: 16px;
+    width: 250px;
+    box-sizing: border-box;
+}

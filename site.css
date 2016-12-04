@@ -12,14 +12,24 @@ main h1 {
     text-align: center;
     background-color: rgb(133, 25, 68);
     color: #FFF;
+    padding: 25px;
 }
 
 p {
     text-align: justify;
 }
 
+blockquote, aside, footer {
+    padding: 20px;
+}
+
 blockquote {
     background-color: #D9E5E3;
+    margin: 0;
+    border: 10px solid #C2CCCA;
+    padding: 16px;
+    width: 250px;
+    box-sizing: border-box;
 }
 
 aside {
@@ -45,14 +55,7 @@ aside a {
     font-family: "Open Sans Condensed", sans-serif;
 }
 
-h1 {
-    padding: 24px;
-}
-
-blockquote {
-    margin: 0;
-    border: 10px solid #C2CCCA;
-    padding: 16px;
-    width: 250px;
-    box-sizing: border-box;
+main div {
+    width: 720px;
+    margin: 0 auto;
 }

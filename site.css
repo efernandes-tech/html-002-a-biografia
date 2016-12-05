@@ -21,25 +21,16 @@ p {
     text-align: justify;
 }
 
-blockquote, aside, footer {
-    padding: 20px;
-}
-
 blockquote {
     background-color: #D9E5E3;
-    margin: 0;
     border: 10px solid #C2CCCA;
-    padding: 16px;
     width: 250px;
     box-sizing: border-box;
-    border-bottom-color: #333;
-    border-right-color: #FFF;
 }
 
 aside {
     background-color: #3C1D3D;
     color: #F2FFFC;
-    text-align: center;
 }
 
 footer {
@@ -60,7 +51,15 @@ aside a {
     font-family: "Open Sans Condensed", sans-serif;
 }
 
+blockquote, aside, footer {
+    padding: 20px;
+}
+
 main div {
     width: 720px;
     margin: 0 auto;
+}
+
+aside {
+    text-align: center;
 }

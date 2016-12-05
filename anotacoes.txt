@@ -22,3 +22,5 @@
     &lt;h1&gt; = <h1>
 6 - Propriedade que faz o navegador aplicar o width considerando a borda.
     box-sizing: border-box;
+7 - É importante carregar no projeto um reset de css antes de carregaro o seu css.
+    7.1 - Os resets mais famosos sao: eric meyer, normalize e yui.

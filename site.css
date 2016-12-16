@@ -87,3 +87,7 @@ em {
 h2 {
     font-size: 30px;
 }
+
+li {
+    display: inline-block;
+}

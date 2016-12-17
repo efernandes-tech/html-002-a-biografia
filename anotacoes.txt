@@ -35,3 +35,4 @@
     12.1 - O "span { color: red; }" é menor que o ".texto { color: blue; }" entao a cor definida é o "blue".
         tag < class < id
     12.2 - "class" com "class" (ou outro) depende da ordem escrita no arquivo css.
+13 - O HTML é onde definimos o significado e o CSS é onde definimos a aparência.

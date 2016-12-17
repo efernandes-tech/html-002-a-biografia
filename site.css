@@ -16,6 +16,7 @@ h1, h2 {
     padding: 25px;
     border-bottom: 10px solid black;
     font-size: 60px;
+    text-transform: uppercase;
 }
 
 p {
@@ -40,6 +41,7 @@ p {
 .rodape-pagina {
     background-color: #000;
     color: #F2FFFC;
+    clear: both;
 }
 
 main a {
@@ -76,6 +78,7 @@ em {
 
 .subtitulo-texto {
     font-size: 30px;
+    clear: both;
 }
 
 .icones-redes-sociais li {
@@ -97,8 +100,8 @@ em {
     background-color: #E6E7E8;
 }
 
-h1 {
-    text-transform: uppercase;
+nav a {
+    text-transform: lowercase;
 }
 
 .icones-redes-sociais a {
@@ -120,10 +123,6 @@ h1 {
     background-image: url(linkedin.png);
 }
 
-nav a {
-    text-transform: lowercase;
-}
-
 .fiat {
     float: right;
 }
@@ -132,31 +131,24 @@ nav a {
     float: left;
 }
 
-h2 {
-    clear: both;
-}
-
-main {
-    width: 80%;
-}
-
-img, aside {
-    width: 20%;
-    float: right;
-}
-
-aside {
-    clear: right;
-}
-
-aside {
-    box-sizing: border-box;
-}
-
 main {
     float: left;
+    width: 85%;
+}
+
+.minha-foto, .navegacao-site {
+    float: right;
+    width: 15%;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
 }
 
 .clearfix {
     clear: both;
+}
+
+cite {
+    font-style: italic;
+    float: right;
 }

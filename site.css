@@ -92,3 +92,9 @@ h2 {
 .icones-redes-sociais li {
     display: inline-block;
 }
+
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}

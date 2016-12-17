@@ -31,9 +31,11 @@ blockquote {
     margin: 20px 40px;
 }
 
-aside {
+.navegacao-site {
     background-color: #3C1D3D;
     color: #F2FFFC;
+    padding: 20px;
+    text-align: center;
 }
 
 .rodape-pagina {
@@ -55,17 +57,13 @@ aside a {
     font-family: "Open Sans Condensed", sans-serif;
 }
 
-blockquote, aside {
+blockquote {
     padding: 20px;
 }
 
 main div {
     width: 720px;
     margin: 0 auto;
-}
-
-aside {
-    text-align: center;
 }
 
 aside h1 {

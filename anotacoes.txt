@@ -26,3 +26,4 @@
     7.1 - Os resets mais famosos sao: eric meyer, normalize e yui.
 8 - O "display: inline-block" significa um inline com tamanho.
 9 - O "id" (indentificador) não pode ser repetido na página.
+10 - O ideal é usar "class" para poder reaproveitar estilo quando preciso sem problemas.

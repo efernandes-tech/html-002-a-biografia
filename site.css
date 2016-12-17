@@ -138,7 +138,6 @@ main {
 
 .minha-foto, .navegacao-site {
     float: right;
-    width: 15%;
     box-sizing: border-box;
     border-left: 10px solid black;
     border-bottom: 10px solid black;
@@ -153,24 +152,24 @@ cite {
     float: right;
 }
 
-img {
-    width: 300px;
+.minha-foto {
     position: absolute;
+    width: 300px;
     top: 0;
     right: 0;
 }
 
-aside {
+.navegacao-site {
+    width: 15%;
     position: relative;
-    top: 200px;
+    top: 310px;
 }
 
-footer {
+.rodape-pagina {
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    box-sizing: border-box;
 }
 
 main {

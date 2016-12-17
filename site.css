@@ -123,3 +123,40 @@ h1 {
 nav a {
     text-transform: lowercase;
 }
+
+.fiat {
+    float: right;
+}
+
+.petrobras {
+    float: left;
+}
+
+h2 {
+    clear: both;
+}
+
+main {
+    width: 80%;
+}
+
+img, aside {
+    width: 20%;
+    float: right;
+}
+
+aside {
+    clear: right;
+}
+
+aside {
+    box-sizing: border-box;
+}
+
+main {
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}

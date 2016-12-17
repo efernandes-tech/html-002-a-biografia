@@ -27,3 +27,11 @@
 8 - O "display: inline-block" significa um inline com tamanho.
 9 - O "id" (indentificador) não pode ser repetido na página.
 10 - O ideal é usar "class" para poder reaproveitar estilo quando preciso sem problemas.
+11 - O nome da classe deve ser relacionado ao conteudo.
+    11.1 - Usar "navegacao-site" e não "barra-lateral" pq se vc mudar a navegacao para baixo o nome não faz mais sentido.
+    11.2 - Tipo a classe "red" mudar a cor para "azul", então de o nome de botão.
+    11.3 - "Centralizado" não é um bom nome pq esta ligado a aparencia do elemento.
+12 - Quando a conflito de aplicacao de estilos (propriedades iguais), o nevagador aplica o do seletor mais especifico.
+    12.1 - O "span { color: red; }" é menor que o ".texto { color: blue; }" entao a cor definida é o "blue".
+        tag < class < id
+    12.2 - "class" com "class" (ou outro) depende da ordem escrita no arquivo css.

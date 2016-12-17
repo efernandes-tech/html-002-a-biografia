@@ -9,7 +9,7 @@ h1, h2 {
     font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
-main h1 {
+.titulo-principal {
     text-align: center;
     background-color: rgb(133, 25, 68);
     color: #FFF;
@@ -23,7 +23,7 @@ p {
     margin: 20px 0;
 }
 
-blockquote {
+.citacao-bio {
     background-color: #D9E5E3;
     border: 10px solid #C2CCCA;
     width: 250px;
@@ -32,19 +32,13 @@ blockquote {
 }
 
 .navegacao-site {
+    text-align: center;
     background-color: #3C1D3D;
     color: #F2FFFC;
-    padding: 20px;
-    text-align: center;
 }
 
 .rodape-pagina {
     background-color: #000;
-    color: #F2FFFC;
-    padding: 20px;
-}
-
-nav a {
     color: #F2FFFC;
 }
 
@@ -52,27 +46,24 @@ main a {
     color: #851944;
 }
 
-aside a {
+.navegacao-site a {
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
 }
 
-blockquote {
+.citacao-bio, .navegacao-site, .rodape-pagina {
     padding: 20px;
 }
 
-main div {
+.container {
     width: 720px;
     margin: 0 auto;
+    padding: 30px 0;
 }
 
-aside h1 {
+.navegacao-site h1 {
     font-size: 30px;
     margin-bottom: 25px;
-}
-
-main div {
-    padding: 30px 0;
 }
 
 strong {
@@ -83,7 +74,7 @@ em {
     font-style: italic;
 }
 
-h2 {
+.subtitulo-texto {
     font-size: 30px;
 }
 
@@ -91,8 +82,17 @@ h2 {
     display: inline-block;
 }
 
-article {
+.artigo {
     padding-bottom: 30px;
     border-bottom: 1px solid #ccc;
     margin-bottom: 20px;
+}
+
+.leia-mais {
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;
 }

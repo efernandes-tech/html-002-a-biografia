@@ -119,3 +119,7 @@ h1 {
 .linkedin {
     background-image: url(linkedin.png);
 }
+
+nav a {
+    text-transform: lowercase;
+}

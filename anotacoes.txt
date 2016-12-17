@@ -36,3 +36,5 @@
         tag < class < id
     12.2 - "class" com "class" (ou outro) depende da ordem escrita no arquivo css.
 13 - O HTML é onde definimos o significado e o CSS é onde definimos a aparência.
+14 - A técnica de "image replacement" funciona em colocar um texto na pagina e colocar uma imagen secundaria como backgroud, entao vc exibe o texto fora da tela com o "text-ident", assim os buscadores sabem o q ha ali e so indexam as imagens realmente importantes para sua pagina.
+    14 - Ideal para icones das redes sociais mas nao para o logo da sua empresa.

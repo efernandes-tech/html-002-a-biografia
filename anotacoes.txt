@@ -25,3 +25,4 @@
 7 - É importante carregar no projeto um reset de css antes de carregaro o seu css.
     7.1 - Os resets mais famosos sao: eric meyer, normalize e yui.
 8 - O "display: inline-block" significa um inline com tamanho.
+9 - O "id" (indentificador) não pode ser repetido na página.

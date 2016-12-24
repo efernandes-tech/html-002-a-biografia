@@ -43,3 +43,9 @@
         .clearfix {
             clear: both;
         }
+16 - O "position: relative" mais o "top/right/botton/left" faz o elemento se mover a partir de sua posicao original.
+17 - O "position: absolute" mais o "top/right/botton/left" faz o elemento se mover a partir do canto superior esquerdo da tela.
+18 - O "position" = referência:
+    18.1 - relative = ele mesmo
+    18.2 - absolute = janela
+    18.3 - fixed = fixo

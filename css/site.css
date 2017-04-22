@@ -5,23 +5,77 @@ body {
     line-height: 1.5;
 }
 
-h1, h2 {
+h1, h2, .subtitulo-principal {
     font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
-p {
-    text-align: justify;
-    margin: 20px 0;
+h1 {
+    text-transform: uppercase;
+    font-size: 3em;
 }
 
-main {
-    padding-bottom: 80px;
-    float: left;
-    width: 85%;
+.titulo-principal {
+    text-align: center;
+    background-color: rgb(133, 25, 68);
+    color: #FFF;
+    padding: 2rem;
+    border-bottom: .5rem solid black;
+    /*font-size: 300%;*/
+    /*text-transform: uppercase;*/
+}
+
+.subtitulo-texto {
+    font-size: 1.5em;
+    clear: both;
 }
 
 main a {
     color: #851944;
+}
+
+main p {
+    text-align: justify;
+    margin: 1em 0;
+}
+
+.navegacao-site {
+    text-align: center;
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    padding: 1em;
+    /*width: 15%;*/
+    /*position: relative;*/
+    /*top: 300px;*/
+}
+
+.navegacao-site a {
+    color: inherit;
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    text-transform: lowercase;
+}
+
+.navegacao-site h1 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.rodape-pagina {
+    background-color: #000;
+    color: #F2FFFC;
+    padding: 1em;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80ch;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em 0;
 }
 
 strong {
@@ -30,69 +84,6 @@ strong {
 
 em {
     font-style: italic;
-}
-
-nav a {
-    text-transform: lowercase;
-}
-
-.titulo-principal {
-    text-align: center;
-    background-color: rgb(133, 25, 68);
-    color: #FFF;
-    padding: 2rem;
-    border-bottom: 10px solid black;
-    font-size: 300%;
-    text-transform: uppercase;
-}
-
-.navegacao-site {
-    text-align: center;
-    background-color: #3C1D3D;
-    color: #F2FFFC;
-    padding: 20px;
-    width: 15%;
-    position: relative;
-    top: 300px;
-}
-
-.navegacao-site a {
-    color: inherit;
-    font-family: "Open Sans Condensed", sans-serif;
-}
-
-.navegacao-site h1 {
-    font-size: 30px;
-    margin-bottom: 25px;
-}
-
-.minha-foto {
-    position: absolute;
-    width: 300px;
-    top: 0;
-    right: 0;
-}
-
-.rodape-pagina {
-    background-color: #000;
-    color: #F2FFFC;
-    clear: both;
-    padding: 20px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-}
-
-.container {
-    width: 720px;
-    margin: 0 auto;
-    padding: 30px 0;
-}
-
-.subtitulo-texto {
-    font-size: 30px;
-    clear: both;
 }
 
 .icones-redes-sociais li {
@@ -118,13 +109,33 @@ nav a {
     background-image: url(../img/linkedin.png);
 }
 
-.clearfix {
-    clear: both;
+main {
+    width: 80%;
+    float: left;
+    padding-bottom: 4em;
 }
 
-.minha-foto, .navegacao-site {
-    float: right;
+.minha-foto,.navegacao-site {
+    border-left: .5em solid black;
+    border-bottom: .5em solid black;
     box-sizing: border-box;
-    border-left: 10px solid black;
-    border-bottom: 10px solid black;
+    /*float: right;*/
+}
+
+.navegacao-site {
+    width: 20%;
+    float: right;
+    position: relative;
+    top: 300px;
+}
+
+.minha-foto {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 300px;
+}
+
+.clearfix {
+    clear: both;
 }

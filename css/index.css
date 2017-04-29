@@ -126,6 +126,10 @@ main {
     width: 60%;
 }
 
+header {
+    position: relative;
+}
+
 .palavra-home {
     font-family: "Shadows Into Light", cursive;
     font-weight: bold;

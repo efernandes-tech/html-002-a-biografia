@@ -49,3 +49,9 @@
     18.1 - relative = ele mesmo
     18.2 - absolute = janela
     18.3 - fixed = fixo
+19 - Propriedades que estao em beta precisao de prefixo e tmb se deixa uma linha sem prefixo para quando a propriedade nao for mais beta (Future Proof)
+    -webkit-border-radius: 10px; (chrome)
+    -moz-border-radius: 10px; (firefox)
+    -ms-border-radius: 10px; (ie)
+    -o-border-radius: 10px; (orbit)
+    border-radius: 10px; (future proof)

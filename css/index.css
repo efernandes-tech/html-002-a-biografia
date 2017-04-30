@@ -226,9 +226,10 @@ body {
 }
 
 .blog .inicio-post {
+    display: none;
     position: absolute;
-    top: 4em;
-    height: 8em;
+    top: 6em;
+    height: 7em;
     left: 30%;
     right: 4em;
     background-color: #F2FFFC;
@@ -237,7 +238,7 @@ body {
 }
 
 .blog .mais-recente {
-    background-color: #F2FFFC;
+    /*background-color: #F2FFFC;*/
 }
 
 .blog .mais-recente a {
@@ -295,4 +296,15 @@ body {
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
     position: relative;
+}
+
+.blog a:hover + .inicio-post,
+.blog a:focus + .inicio-post {
+    display: block;
+}
+
+.blog a:hover,
+.blog a:focus {
+    background-color: #F2FFFC;
+    color: #F26;
 }

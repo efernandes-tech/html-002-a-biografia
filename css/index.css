@@ -106,8 +106,21 @@ main {
     position: absolute;
 }
 
-.palavras-home {
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
     perspective: 6px;
+    perspective-origin: 50% 160px;
+}
+
+.palavras-home, .titulo-principal {
+    transform-style: preserve-3d;
+}
+
+.palavras-home {
     position: absolute;
     top: 0;
     left: 0;

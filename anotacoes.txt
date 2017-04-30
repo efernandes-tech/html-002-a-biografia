@@ -55,3 +55,11 @@
     -ms-border-radius: 10px; (ie)
     -o-border-radius: 10px; (orbit)
     border-radius: 10px; (future proof)
+20 - Outros seletores do CSS: (Quando vc tem acesso ao HTML o ideal é usar classes ao inves dos seletores para melhorar o desempenho)
+    tag
+    #id
+    .classe
+    ancestral descendente
+    irmão ~ irmão
+    irmão + irmão seguinte
+    pai > filho

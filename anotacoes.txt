@@ -66,3 +66,13 @@
     [href="http://www.alura.com.br"] com este atributo
     [src$=".jpg"] somente imagens jpg
     [href^="http://"] links que comecem com http
+21 - Pseudoclasses estruturais: (Melhor que os seletores com sinais)
+    :first-child
+    :last-child
+    :nth-child
+    :nth-of-type
+22 - Pseudoclasses dinamicas:
+    :hover
+    :focus
+    :active
+    :checked

@@ -165,3 +165,7 @@ main {
 .blog .mais-recente a {
     color: #F26;
 }
+.foto-home {
+    height: 200px;
+    border-radius: 50%;
+}

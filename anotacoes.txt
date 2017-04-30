@@ -63,3 +63,6 @@
     irmão ~ irmão
     irmão + irmão seguinte
     pai > filho
+    [href="http://www.alura.com.br"] com este atributo
+    [src$=".jpg"] somente imagens jpg
+    [href^="http://"] links que comecem com http

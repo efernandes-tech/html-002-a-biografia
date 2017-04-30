@@ -5,7 +5,9 @@ body {
     line-height: 1.5;
 }
 
-h1, h2, .subtitulo-principal {
+h1,
+h2,
+.subtitulo-principal {
     font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
@@ -16,10 +18,10 @@ h1 {
 
 .titulo-principal {
     text-align: center;
-    background-color: rgb(133, 25, 68);
+    background-color: #851944;
     color: #FFF;
     padding: 2rem;
-    border-bottom: .5rem solid black;
+    border-bottom: .5rem solid #000;
 }
 
 .subtitulo-texto {
@@ -110,7 +112,8 @@ main {
     padding-bottom: 4em;
 }
 
-.minha-foto,.navegacao-site {
+.minha-foto,
+.navegacao-site {
     border-left: .5em solid black;
     border-bottom: .5em solid black;
     box-sizing: border-box;

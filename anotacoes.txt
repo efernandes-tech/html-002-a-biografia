@@ -76,3 +76,10 @@
     :focus
     :active
     :checked
+23 - Pseudoelementos servem para colocar elementos na tela que servem apenas para estilização, e nao sao conteudo, por exemplo um balão informando para clicar em um botão, assim vc mantem um HTML mais limpo.
+    :before
+    :after
+    23.1 - O elemento é colocado atraves do CSS com o atributo "content":
+        button:after {
+            content: '<span>clica ae</span>';
+        }

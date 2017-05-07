@@ -93,3 +93,7 @@
 .habilidades [rowspan] {
     vertical-align: middle;
 }
+
+.citacao-bio {
+    transition: box-shadow 1s, transform 1s;
+}

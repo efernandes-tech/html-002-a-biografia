@@ -85,3 +85,4 @@
         }
 24 - No HTNL5 é possivel criar atributos proprios para o elemente e ainda ser um html valido, para isto o atributo deve comecer com "data-".
     <a href="#" data-legenda="Link"></a>
+25 - Um <label> não pode ter 2 <input> dentro dele.

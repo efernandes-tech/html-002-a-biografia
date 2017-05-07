@@ -96,4 +96,5 @@
 
 .citacao-bio {
     transition: box-shadow 1s, transform 1s;
+    transition-delay: 0s, 1s;
 }

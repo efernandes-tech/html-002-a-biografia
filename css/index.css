@@ -309,3 +309,15 @@ body {
     background-color: #F2FFFC;
     color: #F26;
 }
+
+.botao-index:focus,
+.botao-index:hover {
+    background-color: #C54974;
+    color: white;
+    box-shadow: 0 0 1em #FA9;
+}
+
+.botao-index {
+    text-decoration: none;
+    transition: .5s;
+}

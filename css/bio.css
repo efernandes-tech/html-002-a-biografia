@@ -52,3 +52,35 @@
 .citacao-bio > p {
     position: relative;
 }
+
+.habilidades th {
+    font-weight: bold;
+    background-color: #851944;
+    color: white;
+}
+
+.habilidades thead th {
+    /* Não precisamos colocar font-weight e color
+    pois já fizemos isso para todos os th. */
+    background-color: #3C1D3D;
+}
+
+.habilidades td {
+    background-color: #eee;
+}
+
+.habilidades th,
+.habilidades td {
+    padding: 1em;
+}
+
+.habilidades {
+    /* Não colapsa as bordas adjacentes. */
+    border-collapse: separate;
+    /* Espaçamento entre as células. */
+    border-spacing: .25em;
+}
+
+.habilidades {
+    margin: 1em 0;
+}

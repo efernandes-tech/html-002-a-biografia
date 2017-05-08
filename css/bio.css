@@ -96,5 +96,12 @@
 
 .citacao-bio {
     transition: box-shadow 1s, transform 1s;
+    /* Vale quando o usuário parou de interagir. */
+    transition-delay: 1s, 0s;
+}
+
+.citacao-bio:hover,
+.citacao-bio:focus {
+    /* Vale quando o usuário começou a interagir. */
     transition-delay: 0s, 1s;
 }

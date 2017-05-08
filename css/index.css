@@ -321,3 +321,14 @@ body {
     text-decoration: none;
     transition: .5s;
 }
+
+.palavras-home {
+    animation: aparece 2s;
+}
+@keyframes aparece {
+    /* Podemos usar a palavra-chave "from" também no lugar de 0%. */
+    0% {
+        opacity: 0;
+        transform: scale(0.001);
+    }
+}

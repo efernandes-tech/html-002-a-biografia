@@ -132,8 +132,8 @@ em {
 
 main {
     /*width: 80%;*/
-    width: calc(100% - 0.9 * 300px);
-    float: left;
+    /*width: calc(100% - 0.9 * 300px);*/
+    /*float: left;*/
     padding-bottom: 4em;
 }
 
@@ -147,9 +147,9 @@ main {
 .navegacao-site {
     /*width: 20%;*/
     width: calc(0.9 * 300px);
-    float: right;
-    position: relative;
-    top: 300px;
+    /*float: right;*/
+    /*position: relative;*/
+    /*top: 300px;*/
 }
 
 .minha-foto {
@@ -186,4 +186,18 @@ main {
     height: 1em;
     background-color: black;
     transform: translateY(.5em) rotate(45deg);
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.navegacao-site {
+    /* Removemos position e top, além do float, já removido acima. */
+    padding-top: calc(300px + 1em);
 }

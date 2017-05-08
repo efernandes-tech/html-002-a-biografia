@@ -340,3 +340,8 @@ body {
     /* Não precisamos mais de float nem width! */
     flex: 1;
 }
+
+body {
+    /* Sobrescreve o site.css */
+    display: block;
+}

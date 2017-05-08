@@ -356,3 +356,7 @@ body {
         top: 5px;
     }
 }
+
+.saudacao:hover em {
+    animation-play-state: paused;
+}

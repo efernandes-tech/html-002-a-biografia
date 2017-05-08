@@ -332,3 +332,8 @@ body {
         transform: scale(0.001);
     }
 }
+
+.banner-twitter {
+    animation: aparece 0.5s;
+    animation-delay: 2s;
+}

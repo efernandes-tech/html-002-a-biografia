@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>João da Silva - Contato</title>
     <meta charset="utf-8">
+    <title>João da Silva - Contato</title>
     <link rel="icon" href="img/favicon.png">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/site.css">
@@ -20,12 +20,12 @@
             <form>
                 <fieldset>
                     <legend>Seus dados</legend>
-                    <label for="nome" class="com-icone">Nome</label>
+                    <label class="com-icone" for="nome">Nome completo</label>
                     <!-- Campo só aceita mais de 4 letras maiusculas e/ou -->
                     <!-- minusculas, com espaço e apostrofo. -->
-                    <input id="nome" type="text" name="nome-contato" required autofocus pattern="[A-Za-z ']{4,}" title="O nome precisa ter pelo menos 4 caracteres">
-                    <label for="email" class="com-icone">E-mail</label>
-                    <input id="email" type="email" name="email-contato" required placeholder="Digite seu e-mail">
+                    <input id="nome" type="text" name="nome" required autofocus pattern="[A-Za-z ']{4,}" title="O nome precisa ter pelo menos 4 caracteres">
+                    <label class="com-icone" for="email">E-mail</label>
+                    <input id="email" type="email" name="email" required placeholder="seu@email.com">
                 </fieldset>
                 <fieldset>
                     <legend>Assunto</legend>
@@ -49,7 +49,7 @@
                     <option value="outro">Outro</option>
                 </select> -->
                 <label for="mensagem">Mensagem</label>
-                <textarea name="msg" id="mensagem" cols="60" rows="10" placeholder="Digite aqui sua mensagem"></textarea>
+                <textarea id="mensagem" name="mensagem" cols="60" rows="10" placeholder="Digite aqui sua mensagem"></textarea>
                 <button type="submit">Enviar mensagem</button>
             </form>
         </div>
@@ -84,7 +84,7 @@
             </li>
         </ul>
     </aside>
-    <footer class="rodape-pagina clearfix">
+    <footer class="rodape-pagina">
         &copy; João da Silva 2017
     </footer>
 </body>

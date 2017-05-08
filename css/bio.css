@@ -5,6 +5,9 @@
     margin: 1em 2em;
     width: 30ch;
     box-sizing: border-box;
+    transition: box-shadow 1s, transform 1s;
+    /* Vale quando o usuário parou de interagir. */
+    transition-delay: 1s, 0s;
 }
 
 .citacao-bio:nth-of-type(even) {
@@ -20,6 +23,8 @@
 .citacao-bio:hover,
 .citacao-bio:focus {
     box-shadow: 0 0 0 99999px rgba(0,0,0,.8);
+    /* Vale quando o usuário começou a interagir. */
+    transition-delay: 0s, 1s;
 }
 
 .citacao-bio:nth-of-type(odd):hover,
@@ -45,24 +50,26 @@
     content: '“';
     position: absolute;
     font-size: 10em;
-    color: #bbb;
     line-height: .8;
+    color: #bbb;
 }
 
 .citacao-bio > p {
     position: relative;
 }
 
+.habilidades {
+    /* Não colapsa as bordas adjacentes. */
+    border-collapse: separate;
+    /* Espaçamento entre as células. */
+    border-spacing: .25em;
+    margin: 1em 0;
+}
+
 .habilidades th {
     font-weight: bold;
     background-color: #851944;
     color: white;
-}
-
-.habilidades thead th {
-    /* Não precisamos colocar font-weight e color
-    pois já fizemos isso para todos os th. */
-    background-color: #3C1D3D;
 }
 
 .habilidades td {
@@ -74,34 +81,16 @@
     padding: 1em;
 }
 
-.habilidades {
-    /* Não colapsa as bordas adjacentes. */
-    border-collapse: separate;
-    /* Espaçamento entre as células. */
-    border-spacing: .25em;
-}
-
-.habilidades {
-    margin: 1em 0;
+.habilidades thead th {
+    /* Não precisamos colocar font-weight e color
+    pois já fizemos isso para todos os th. */
+    background-color: #3C1D3D;
 }
 
 .habilidades [colspan] {
     text-align: center;
     font-style: italic;
 }
-
 .habilidades [rowspan] {
     vertical-align: middle;
-}
-
-.citacao-bio {
-    transition: box-shadow 1s, transform 1s;
-    /* Vale quando o usuário parou de interagir. */
-    transition-delay: 1s, 0s;
-}
-
-.citacao-bio:hover,
-.citacao-bio:focus {
-    /* Vale quando o usuário começou a interagir. */
-    transition-delay: 0s, 1s;
 }

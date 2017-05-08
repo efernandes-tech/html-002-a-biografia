@@ -14,7 +14,7 @@ h2,
 h1 {
     text-transform: uppercase;
     font-size: 3em;
-    text-shadow: 2px 2px #000;
+    text-shadow: 3px 3px #000;
 }
 
 .titulo-principal {
@@ -32,6 +32,13 @@ h1 {
 
 main a {
     color: #851944;
+}
+
+main a:hover,
+main a:focus,
+footer a:focus,
+footer a:hover {
+    color: red;
 }
 
 main p {
@@ -52,6 +59,11 @@ main p {
     text-transform: lowercase;
 }
 
+.navegacao-site a:hover,
+.navegacao-site a:focus {
+    text-shadow: 0 0 2px pink;
+}
+
 .navegacao-site h1 {
     font-size: 1.5em;
     margin-bottom: 1em;
@@ -66,6 +78,8 @@ main p {
     left: 0;
     width: 100%;
     box-sizing: border-box;
+    background-repeat: no-repeat;
+    text-shadow: 1px 1px black;
     /*background-color: rgba(0, 0, 0, 0.8);*/
     background-image: radial-gradient(ellipse at left bottom,
         rgba(60, 29, 61, 0.8),
@@ -76,7 +90,6 @@ main p {
         transparent);
     width:100%;
     background-size: 25% 100%;
-    background-repeat: no-repeat;
 }
 
 .container {
@@ -146,23 +159,6 @@ main {
     height: 300px;
 }
 
-main a:hover,
-main a:focus,
-footer a:hover,
-footer a:focus {
-    color: red;
-}
-
-.navegacao-site a:hover,
-.navegacao-site a:focus {
-    text-shadow: 0 0 2px pink;
-}
-
-.icones-redes-sociais a:hover::after,
-.icones-redes-sociais a:focus::after {
-    content: attr(data-tooltip);
-}
-
 .icones-redes-sociais a {
     position: relative;
 }
@@ -171,22 +167,23 @@ footer a:focus {
 .icones-redes-sociais a:focus::after {
     content: attr(data-tooltip);
     position: absolute;
+    background: black;
+    color: white;
     top: 100%;
+    width: 300%;
     right: 0;
     text-indent: 0;
-    width: 300%;
-    background: black;
     font-size: .75em;
 }
 
 .icones-redes-sociais a:hover::before,
 .icones-redes-sociais a:focus::before {
     content: '';
-    width: 1em;
-    height: 1em;
-    background-color: black;
     position: absolute;
     bottom: 0;
     left: 0;
+    width: 1em;
+    height: 1em;
+    background-color: black;
     transform: translateY(.5em) rotate(45deg);
 }

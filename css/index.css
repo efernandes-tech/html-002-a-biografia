@@ -68,8 +68,8 @@
 }
 .trabalhos {
     background-color: #3C1D3D;
-    border-top: .5em solid #000;
-    border-bottom: .5em solid #000;
+    /*border-top: .5em solid #000;*/
+    /*border-bottom: .5em solid #000;*/
     background-image: linear-gradient(135deg,
         transparent,
         transparent 14px,
@@ -85,7 +85,7 @@
 }
 .trabalhos ul {
     /*overflow: hidden;*/
-    border: .5em solid black;
+    /*border: .5em solid black;*/
 }
 .trabalhos li {
     /*float: left;*/
@@ -344,4 +344,25 @@ body {
 body {
     /* Sobrescreve o site.css */
     display: block;
+}
+
+.trabalhos li:first-child {
+    order: 2;
+    transform: scale(1.2);
+}
+
+.trabalhos li:nth-child(2) {
+    order: 1;
+}
+
+.trabalhos li:last-child {
+    order: 3;
+}
+
+.trabalhos {
+    /* removemos a borda e o overflow daqui */
+}
+
+.trabalhos li {
+    border: .5em solid #000;
 }

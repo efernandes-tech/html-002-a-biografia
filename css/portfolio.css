@@ -1,5 +1,5 @@
 .portfolio li {
-    display: inline-block;
+    /*display: inline-block;*/
     border: .5em solid black;
     background-color: #FAFFFC;
     width: 45%;
@@ -15,5 +15,16 @@
 }
 
 .portfolio li:first-child {
-    width: 100%;
+    flex-basis: 100%;
+}
+
+/* Iniciando flexbox e com quebra de linha. */
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio li {
+    /* Não precisamos mais do display: inline-block aqui. */
+    flex: 1 1 45%;
 }

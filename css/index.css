@@ -339,3 +339,20 @@ body {
     /* Estilo é aplicado antes da animacao comecar. */
     animation-fill-mode: backwards;
 }
+
+.saudacao em {
+    animation: flutua 1s infinite;
+    animation-direction: alternate;
+    /* Suaviza a animacao no comeco e no final. */
+    animation-timing-function: ease-in-out;
+    position: relative;
+}
+
+@keyframes flutua {
+    from {
+        top: -5px;
+    }
+    to {
+        top: 5px;
+    }
+}

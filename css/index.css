@@ -336,4 +336,6 @@ body {
 .banner-twitter {
     animation: aparece 0.5s;
     animation-delay: 2s;
+    /* Estilo é aplicado antes da animacao comecar. */
+    animation-fill-mode: backwards;
 }

@@ -84,12 +84,12 @@
     color: #FFF;
 }
 .trabalhos ul {
-    overflow: hidden;
+    /*overflow: hidden;*/
     border: .5em solid black;
 }
 .trabalhos li {
-    float: left;
-    width: 33.333%;
+    /*float: left;*/
+    /*width: 33.333%;*/
 }
 .trabalhos img {
     width: 100%;
@@ -329,4 +329,14 @@ body {
     to {
         top: 5px;
     }
+}
+
+.trabalhos ul {
+    /* Podemos tirar o overflow também! */
+    display: flex;
+}
+
+.trabalhos li {
+    /* Não precisamos mais de float nem width! */
+    flex: 1;
 }

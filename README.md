@@ -1,0 +1,94 @@
+# html-002-a-biografia
+Site para portfólio online. (projeto prático)
+
+##### Anotações:
+
+1 - A W3C definiu a tag "<!DOCTYPE html>" desta forma, pq quando sair uma versão 6 do HTML, vc não vai precisar fazer alterações pq o browser vai entender que vc esta usando a versão mais atual.
+2 - Quando for declarar uma fonte no CSS, sempre declare o tipo que vc quer pq se o browser não achar a principal ele usa uma parecida.
+    font-family: "Arial", sans-serif; (sem serifa, os risquinnhos nos cantos)
+    font-family: "Merriweather", serif; (com serifa)
+3 - Tipos de links
+    3.1 - Relativos (ideal)
+        3.1.1 - URL atual:
+            http://meusite.com/paginas/blog.html
+        3.1.2 - Links e para onde levão relativos ao atual:
+            <a href="portifolio.html">Relativo</a>
+                http://meusite.com/paginas/portifolio.html
+            <a href="/posts/teste.html">Relativo</a>
+                http://meusite.com/posts/teste.html
+            <a href="//curso.com">Relativo</a>
+                http://curso.com
+    3.2 - Absoluto
+        <a href="http://www.google.com">Absoluto</a>
+4 - Sempre usar o alt="" nas imagens para auxiliar os leitores de tela.
+5 - Usar entidades para caracters especiais evita problemas com a codificação da pagina (tmb serve para exibir tags html sem q elas sejam interpletadas).
+    &pound; = £
+    &copy; = ₢
+    &lt;h1&gt; = <h1>
+6 - Propriedade que faz o navegador aplicar o width considerando a borda.
+    box-sizing: border-box;
+7 - É importante carregar no projeto um reset de css antes de carregaro o seu css.
+    7.1 - Os resets mais famosos sao: eric meyer, normalize e yui.
+8 - O "display: inline-block" significa um inline com tamanho.
+9 - O "id" (indentificador) não pode ser repetido na página.
+10 - O ideal é usar "class" para poder reaproveitar estilo quando preciso sem problemas.
+11 - O nome da classe deve ser relacionado ao conteudo.
+    11.1 - Usar "navegacao-site" e não "barra-lateral" pq se vc mudar a navegacao para baixo o nome não faz mais sentido.
+    11.2 - Tipo a classe "red" mudar a cor para "azul", então de o nome de botão.
+    11.3 - "Centralizado" não é um bom nome pq esta ligado a aparencia do elemento.
+12 - Quando a conflito de aplicacao de estilos (propriedades iguais), o nevagador aplica o do seletor mais especifico.
+    12.1 - O "span { color: red; }" é menor que o ".texto { color: blue; }" entao a cor definida é o "blue".
+        tag < class < id
+    12.2 - "class" com "class" (ou outro) depende da ordem escrita no arquivo css.
+13 - O HTML é onde definimos o significado e o CSS é onde definimos a aparência.
+14 - A técnica de "image replacement" funciona em colocar um texto na pagina e colocar uma imagen secundaria como backgroud, entao vc exibe o texto fora da tela com o "text-ident", assim os buscadores sabem o q ha ali e so indexam as imagens realmente importantes para sua pagina.
+    14 - Ideal para icones das redes sociais mas nao para o logo da sua empresa.
+15 - Quando trabalhar com "float" lembre-se da propriedade "clear" para controlar o fluxo.
+    15.1 - Geralmenta a galera cria uma classe para aplicar a propriedade sempre que necessario:
+        .clearfix {
+            clear: both;
+        }
+16 - O "position: relative" mais o "top/right/botton/left" faz o elemento se mover a partir de sua posicao original.
+17 - O "position: absolute" mais o "top/right/botton/left" faz o elemento se mover a partir do canto superior esquerdo da tela.
+18 - O "position" = referência:
+    18.1 - relative = ele mesmo
+    18.2 - absolute = janela
+    18.3 - fixed = fixo
+19 - Propriedades que estao em beta precisao de prefixo e tmb se deixa uma linha sem prefixo para quando a propriedade nao for mais beta (Future Proof)
+    -webkit-border-radius: 10px; (chrome)
+    -moz-border-radius: 10px; (firefox)
+    -ms-border-radius: 10px; (ie)
+    -o-border-radius: 10px; (orbit)
+    border-radius: 10px; (future proof)
+20 - Outros seletores do CSS: (Quando vc tem acesso ao HTML o ideal é usar classes ao inves dos seletores para melhorar o desempenho)
+    tag
+    #id
+    .classe
+    ancestral descendente
+    irmão ~ irmão
+    irmão + irmão seguinte
+    pai > filho
+    [href="http://www.alura.com.br"] com este atributo
+    [src$=".jpg"] somente imagens jpg
+    [href^="http://"] links que comecem com http
+21 - Pseudoclasses estruturais: (Melhor que os seletores com sinais)
+    :first-child
+    :last-child
+    :nth-child
+    :nth-of-type
+22 - Pseudoclasses dinamicas:
+    :hover
+    :focus
+    :active
+    :checked
+23 - Pseudoelementos servem para colocar elementos na tela que servem apenas para estilização, e nao sao conteudo, por exemplo um balão informando para clicar em um botão, assim vc mantem um HTML mais limpo.
+    :before
+    :after
+    23.1 - O elemento é colocado atraves do CSS com o atributo "content":
+        button:after {
+            content: '<span>clica ae</span>';
+        }
+24 - No HTNL5 é possivel criar atributos proprios para o elemente e ainda ser um html valido, para isto o atributo deve comecer com "data-".
+    <a href="#" data-legenda="Link"></a>
+25 - Um <label> não pode ter 2 <input> dentro dele.
+26 - Se vc precisa exibir os dados de 1 elemento use um <dl>, pq a <table> é indicada para apresentar varios dados.

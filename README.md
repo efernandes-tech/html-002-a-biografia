@@ -1,2 +1,3 @@
 # html-002-a-biografia
-Site para portfólio online. (projeto prático)
+
+Site para portfólio online.
